@@ -87,7 +87,7 @@ h1{
 .part3-p{
     font-size: 10px;
 }
-img{
+.logo{
     background-color: rgba(141, 26, 10, 0.973);
     padding: 10px;
  border-radius: 100%;
@@ -109,4 +109,31 @@ img{
 }
 .part3-h2{
     font-size: 45px;
+}
+.section-4{
+    width: 1360px;
+    height: 600px;
+    margin-top: 120px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.section4-title{
+    width: 700px;
+    height: 396px;
+    padding-right: 265px;
+    font-family: "Inter", sans-serif;
+}
+.title-p{
+    color: rgb(14, 170, 61);
+}
+.title-p-p{
+color: #757575;
+}
+.section4-div{
+    font-weight: bold;
+    
+}
+i{
+    color: rgb(7, 136, 7);
 }
