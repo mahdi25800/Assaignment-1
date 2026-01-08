@@ -1,0 +1,34 @@
+#main-part{
+    width: 1360px;
+    height: 152px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+.part3-p{
+    font-size: 10px;
+}
+img{
+    background-color: rgba(141, 26, 10, 0.973);
+    padding: 10px;
+ border-radius: 100%;
+}
+.part-3{
+    display: flex;
+    gap: 24px;
+    width: 1600px;
+    height: 448px;
+
+}
+.part3-div-1{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    text-align: center;
+    box-shadow:0px -3px 8px -4px black;
+    
+}
