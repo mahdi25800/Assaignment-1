@@ -10,6 +10,7 @@
     display: flex;
     gap: 32px;
     text-align: center;
+    font-family: "Inter", sans-serif;
 }
 button{
     width: 144px;
@@ -17,6 +18,8 @@ button{
     padding: 12px 16px;
     background-color: #30B868;
     border-radius: 5px;
+    border: none;
+    font-family: "Inter", sans-serif;
 }
 #part-2{
     width: 1600px;
@@ -29,6 +32,7 @@ button{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  
 
     
 }
@@ -61,6 +65,9 @@ h1{
     margin-right: 16px;
     border-radius: 5px;
 }
+.part2-btn:hover{
+    background-color: blue;
+}
 .part2-btn2{
     background-color:rgba(255, 255, 255, 0);
     width: 251px;
@@ -71,6 +78,9 @@ h1{
     font-weight: bold;
     border-radius: 5px;
 
+}
+.part2-btn2:hover{
+    background-color: blue;
 }
 
 #main-part{
@@ -91,12 +101,16 @@ h1{
     background-color: rgba(141, 26, 10, 0.973);
     padding: 10px;
  border-radius: 100%;
+ margin-top: 40px;
 }
 .part-3{
     display: flex;
     gap: 24px;
     width: 1600px;
     height: 448px;
+    /* margin-left: 120px; */
+    /* margin-right: 120px; */
+     font-family: "Inter", sans-serif;
 
 }
 .part3-div-1{
@@ -108,7 +122,8 @@ h1{
     
 }
 .part3-h2{
-    font-size: 45px;
+    font-size: 30px;
+    margin-top: 20px;
 }
 .section-4{
     width: 1360px;
@@ -117,12 +132,15 @@ h1{
     display: flex;
     gap: 60px;
     align-items: center;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .section4-title{
-    width: 700px;
+    width: 1600px;
     height: 396px;
-    padding-right: 265px;
+    padding-right: 91px;
     font-family: "Inter", sans-serif;
+    align-items: center;
 }
 .title-p{
     color: rgb(14, 170, 61);
@@ -145,6 +163,8 @@ i{
     background-color: #6273821c;
     font-family: "Inter", sans-serif;
     margin-top: 240px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .last-p{
     color: rgb(129, 129, 129);
@@ -157,10 +177,55 @@ i{
     color: white;
     font-family: "Inter", sans-serif;
 }
+.last-btn:hover{
+    background-color: #30B868;
+}
 .fa-solid.fa-arrow-right{
 color: white;
 }
 .fa-solid.fa-play{
     color: rgb(255, 255, 255);
 
+}
+.footer{
+    background-color: rgb(14, 14, 48);
+    width: 1360px;
+    height: 348px;
+    padding: 120px;
+}
+.footer-div{
+    display: flex;
+    gap: 794px;
+}
+h4{
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(33, 33, 131);
+
+}
+.social-link{
+    display: flex;
+    gap: 16px;
+}
+.final{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+hr{
+    margin-top: 200px;
+}
+.line{
+    width: 1360px;
+    border: .30px solid white;
+    margin-top: 200px;
+}
+.last-btn:hover{
+    background-color: aqua;
+}
+.fa-regular.fa-copyright{
+    color: white;
 }
