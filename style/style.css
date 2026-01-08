@@ -137,3 +137,30 @@ color: #757575;
 i{
     color: rgb(7, 136, 7);
 }
+.last-section{
+    width: 1360px;
+    height: 384px;
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #6273821c;
+    font-family: "Inter", sans-serif;
+    margin-top: 240px;
+}
+.last-p{
+    color: rgb(129, 129, 129);
+}
+.last-btn{
+    width: 194px;
+    height: 52px;
+    padding: 12px 16px ;
+    background-color: #30B868;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.fa-solid.fa-arrow-right{
+color: white;
+}
+.fa-solid.fa-play{
+    color: rgb(255, 255, 255);
+
+}
