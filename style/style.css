@@ -84,7 +84,7 @@ h1{
 }
 
 #main-part{
-    width: 1360px;
+    width: 1600px;
     height: 152px;
     font-size: 10px;
     text-align: center;
@@ -106,12 +106,19 @@ h1{
 .part-3{
     display: flex;
     gap: 24px;
-    width: 1600px;
+    width: 1360px;
     height: 448px;
     /* margin-left: 120px; */
     /* margin-right: 120px; */
      font-family: "Inter", sans-serif;
+     align-items: center;
 
+}
+.finished{
+    width: 1360px;
+    height: 448px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .part3-div-1{
     width: 322px;
@@ -189,9 +196,11 @@ color: white;
 }
 .footer{
     background-color: rgb(14, 14, 48);
-    width: 1360px;
+    width: 1600px;
     height: 348px;
     padding: 120px;
+    padding-right: 5px;
+    margin-top: 120px;
 }
 .footer-div{
     display: flex;
